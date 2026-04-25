@@ -1,0 +1,56 @@
+
+body {
+    background: linear-gradient(to right, rgb(92, 247, 102), rgb(3, 145, 8));
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    border: solid, rgb(47, 47, 47);
+    width: 700px;
+    padding: 12px;
+    border-width: 10px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+div {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 30px;
+    width: 1300px;
+    padding: 12px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid rgb(47, 47, 47);
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 18px;
+}
+
+input[type="radio"] {
+    transform: scale(3);
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-left: 50px;
+    background-color: rgb(0, 183, 255);
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 300px;
+    
+}
