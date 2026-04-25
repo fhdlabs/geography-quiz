@@ -53,6 +53,6 @@ function checkAnswers() {
         score++;
     }
 
-    window.alert(`You got ${score}/10!`)
+    document.getElementById("score").textContent = `Score: ${score}/10`;
 }
 document.getElementById("submit").onclick = checkAnswers;
